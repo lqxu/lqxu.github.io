@@ -91,16 +91,12 @@ $(document).ready(function() {
 
     var items_wrapper = document.getElementById('items_wrapper');
     var sitesData = [
-        {type:'backend', title:'阿里云', href:"https://xdyuan.github.io/ali_cloud", teches:'html css js', description:'这是阿里云的首页， 实现了一些动画和特效。'},
-        {type:'backend', title:'Flybird', href:"https://xdyuan.github.io/bird", teches:'canvas js', description:'早些年比较火的一款小游戏， 用前端实现了下。'},
-        {type:'backend', title:'京东', href:"https://xdyuan.github.io/jd", teches:'html css', description:'一些css布局，spirit使用。'},
-        {type:'backend', title:'驴妈妈', href:"https://xdyuan.github.io/lvmama", teches:'html css js', description:'一款旅游类首页的页面。'},
-        {type:'backend', title:'Steam', href:"https://xdyuan.github.io/steam", teches:'html css js', description:'steam游戏类页面的首页。'},
-        {type:'frontend', title:'ToDoMVC', href:"https://xdyuan.github.io/todomvc", teches:'ng的路由、服务等', description:'一个备忘录，模板来自于github，用ng实现业务逻辑。'},
-        {type:'backend', title:'打飞机小游戏', href:"https://xdyuan.github.io/wechat_plane", teches:'canvas js', description:'前几年的一个微信打飞机， 使用canvas实现。'},
-        {type:'backend', title:'微金所', href:"https://xdyuan.github.io/weijinsuo", teches:'bootstarp css', description:'使用bootstrap搭建的一个响应式布局页面。'},
-        {type:'backend', title:'类jq框架', href:"https://xdyuan.github.io/xdyua_last.js", teches:'OO 闭包 链式访问', description:'使用原生js封装的类jq库， 实现了链式访问和一些基本功能。'},
-        {type:'frontend', title:'Moviecat', href:"https://xdyuan.github.io/moviecat", teches:'ng', description:'使用ng并通过jsonp请求豆瓣的API，获取数据到前端。'}
+        {type:'backend', title:'IEM爱我', href:"https://lqxu.github.io/item/IEM", teches:'html css js', description:'展示一些潮型搭配推荐，实现了轮播图以及瀑布流排布等'},
+        {type:'frontend', title:'京东', href:"https://lqxu.github.io/item/jd", teches:'html css', description:'一些css布局，spirit使用。'},
+        {type:'backend', title:'京东移动端', href:"https://lqxu.github.io/item/m.jd", teches:'html5 css3 js', description:'最新版的京东移动端，利用百分比，媒体查询等适配了下'},
+        {type:'frontend', title:'阿里云', href:"https://lqxu.github.io/item/ali_cloud", teches:'html css js', description:'阿里云的首页，利用js以及css3实现了一些动画特效'},
+        {type:'frontend', title:'TodoMVC', href:"https://lqxu.github.io/item/todomvc/", teches:'ng的路由、服务等', description:'一个备忘录，模板来自于github，用ng实现业务逻辑。'},
+        {type:'backend', title:'打飞机小游戏', href:"https://lqxu.github.io/item/wechat_plane/", teches:'canvas js', description:'前几年的一个微信打飞机， 使用canvas实现。'},
     ];
     var htmlStr = '', item = null;
     for(var index=0, len=sitesData.length; index<len; index++){
