@@ -594,8 +594,9 @@ a.btn:hover {
 }
 .portfolio-section .item-inner .content .action {
   position: absolute;
-  bottom: 30px;
+  top: 70px;
   left: 30px;
+  padding: 10px 20px 10px 0;
 
 }
 .portfolio-section .item-inner .link-mask {
