@@ -95,6 +95,7 @@ $(document).ready(function() {
         {type:'frontend', title:'爱上电影', href:"https://lqxu.github.io/item/moviecat/", teches:'AngularJS jsonp bootstrap', description:'AngularJS做的，用来查看电影信息，jsonp跨域访问'},
         {type:'frontend', title:'京东', href:"https://lqxu.github.io/item/jd", teches:'html css', description:'div+css布局，spirit使用。'},
         {type:'backend', title:'京东移动端', href:"https://lqxu.github.io/item/m.jd", teches:'html5 css3 js', description:'最新版的京东移动端，利用百分比，媒体查询等适配了下'},
+        {type:'backend', title:'无限互联', href:"https://lqxu.github.io/item/company", teches:'html5 css3 bootstrap', description:'利用bootstrap、自定义媒体查询做的响应式页面'},
         {type:'frontend', title:'阿里云', href:"https://lqxu.github.io/item/ali_cloud", teches:'html css js', description:'阿里云的首页，利用js以及css3实现了一些动画特效'},
         {type:'frontend', title:'TodoMVC', href:"https://lqxu.github.io/item/todomvc/", teches:'ng的路由、服务等', description:'一个备忘录，模板来自于github，用ng实现业务逻辑。'},
         {type:'backend', title:'打飞机小游戏', href:"https://lqxu.github.io/item/wechat_plane/", teches:'canvas js', description:'前几年的一个微信打飞机， 使用canvas实现。'},
