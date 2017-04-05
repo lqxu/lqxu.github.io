@@ -92,6 +92,7 @@ $(document).ready(function() {
     var items_wrapper = document.getElementById('items_wrapper');
     var sitesData = [
         {type:'backend', title:'IEM爱我', href:"https://lqxu.github.io/item/IEM", teches:'html css js', description:'展示一些潮型搭配推荐，实现了轮播图以及瀑布流排布等'},
+        {type:'frontend', title:'爱上电影', href:"https://lqxu.github.io/item/moviecat/", teches:'AngularJS jsonp bootstrap', description:'AngularJS做的，用来查看电影信息，jsonp跨域访问'},
         {type:'frontend', title:'京东', href:"https://lqxu.github.io/item/jd", teches:'html css', description:'div+css布局，spirit使用。'},
         {type:'backend', title:'京东移动端', href:"https://lqxu.github.io/item/m.jd", teches:'html5 css3 js', description:'最新版的京东移动端，利用百分比，媒体查询等适配了下'},
         {type:'frontend', title:'阿里云', href:"https://lqxu.github.io/item/ali_cloud", teches:'html css js', description:'阿里云的首页，利用js以及css3实现了一些动画特效'},
